@@ -1,0 +1,63 @@
+
+<!doctype html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="main.css">
+  <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:600" rel="stylesheet">
+</head>
+<body>
+
+    <h1> Straight from the farm - market</h1>
+
+    <nav>
+      <h3><p onclick="veggie()">Veggie</p></h3>
+      <h3><p onclick="flowers()">Flowers</p></h3>
+      <h3><p onclick="mushrooms()">Mushrooms</p></h3>
+    </nav>
+    <h4>" Pick them right from the field! "</h4>
+
+
+<main>
+    <div id="veggie">
+      <img class="vegline" src="img/squash.png" id="squash">
+      <img class="vegline" src="img/garlic.png" id="garlic">
+      <img class="vegline" src="img/cabbage.png" id="cabbage" >
+      <img class="vegline" src="img/bellpepper.png" id="bellpepper">
+      <img class="vegline" src="img/hotpepper.png" id="ghostpepper">
+    </div>
+    <div id="flowers">
+      <img class="for-sale" src="img/sunflower.png" id="sunflower">
+      <img class="for-sale" src="img/hippie.png" id="hippie-flower">
+      <img class="for-sale" src="img/lily.png" id="lily-flower">
+      <img class="for-sale" src="img/chomper.png" id="chomper">
+      <img class="for-sale" src="img/zombieflower.png" id="zombie-flower">
+    </div>
+    <div id="mushrooms">
+      <img class="for-sale" src="img/yellowmushroom.png" id="yellow-mushroom">
+      <img class="for-sale" src="img/hyposhroom.png" id="hypno-shroom">
+      <img class="for-sale" src="img/poisonmushroom.png" id="poison-mushroom">
+      <img class="for-sale" src="img/angry.png" id="angry-mushroom">
+      <img class="for-sale" src="img/wizard.png" id="wizard-mushroom">
+    </div>
+</main>
+<footer>
+ <div class="shoppingCartIcon">
+  Shopping cart <i class="fas fa-shopping-cart"></i>
+
+  </div>
+  <div class="displayCartItems">
+    <ul>
+       <p id="cartItems"></p>
+    </ul>
+    </div>
+
+
+</footer>
+
+</body>
+  <script charset="utf-8" src="script.js"></script>
+</html>
